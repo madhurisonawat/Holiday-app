@@ -1,0 +1,73 @@
+.nav {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  .link {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .link:nth-child(1) {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .link:hover:not(.active) {
+    background-color: #111;
+    color: white;
+  }
+  .select{
+    padding:0.5%;
+    margin:1%;
+    clear:both;
+    background-color:burlywood
+  }
+  .col {
+   
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_960_720.jpg");
+    height: 150px;
+    width: 100%;
+ }
+ 
+
+
+.info{
+  display:flex;
+  flex-direction: row;
+  border:1px solid grey;
+  box-shadow: 5px 10px blanchedalmond;
+  padding: 10px;
+  width:50%;
+  margin-left:20%
+}
+.info>div{
+  width:30%
+}
+.head{
+  font-weight: bolder;
+  font-size: 24px;
+}
+.div{
+  border:1px solid grey;
+  background-color: coral;
+  width:30%;
+  margin-left:30%;
+  padding:1%;
+}
+.cal{
+  float:right;
+  margin-right:20%;
+  padding:0.5%;
+  background-color:burlywood;
+
+}
+ 
+ .tab{
+   margin:2%;
+   margin-right:2%
+ }
