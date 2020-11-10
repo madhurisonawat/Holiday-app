@@ -14,9 +14,11 @@ Holiday app gives you information about all holiays of a particular Country. If 
 # 2. Technologies
 
 React 
+Material-ui
 CSS
 HTML
 Javascript
+
 
 # 3. SetUP
 
